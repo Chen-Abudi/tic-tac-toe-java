@@ -7,6 +7,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int input;
         char turn = 'X';
+        int currentTurn = 1;
 
         while (true) {
             do {
@@ -40,6 +41,12 @@ public class Main {
             }
             else if (turn == 'O') {
                 turn = 'X';
+            }
+
+            currentTurn++;
+            if (currentTurn > 9) {
+                System.out.println("DRAW");
+                break;
             }
         }
     }

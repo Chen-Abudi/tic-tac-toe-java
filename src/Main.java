@@ -18,11 +18,11 @@ public class Main {
 
             positions[input - 1] = turn;
 
-            System.out.println(" " + positions[6] + " | " + positions[7] + " | " + positions[8] +  " ");
+            System.out.println("\n " + positions[6] + " | " + positions[7] + " | " + positions[8] +  " ");
             System.out.println("---+---+---");
             System.out.println(" " + positions[3] + " | " + positions[4] + " | " + positions[5] +  " ");
             System.out.println("---+---+---");
-            System.out.println(" " + positions[0] + " | " + positions[1] + " | " + positions[2] +  " ");
+            System.out.println(" " + positions[0] + " | " + positions[1] + " | " + positions[2] +  " \n");
 
             if (positions[0] == turn && positions[1] == turn && positions[2] == turn
                     || positions[3] == turn && positions[4] == turn && positions[5] == turn
